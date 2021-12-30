@@ -1,9 +1,12 @@
+import './App.css'
+import Headers from './components/headers'
+
 const App = () => {
-    return (
-        <div>
-            <h1>Helloo</h1>
-        </div>
-    )
+  return (
+    <div>
+      <Headers />
+    </div>
+  )
 }
 
 export default App
