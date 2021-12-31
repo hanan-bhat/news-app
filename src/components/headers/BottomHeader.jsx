@@ -1030,10 +1030,7 @@ const BottomHeader = () => {
                         id="menu-item-1778"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1778"
                       >
-                        <a
-                          target="_blank"
-                          href="https://demo.mekshq.com/?theme=herald&#038;testdrive"
-                        >
+                        <a href="https://demo.mekshq.com/?theme=herald&#038;testdrive">
                           View all features
                         </a>
                       </li>
