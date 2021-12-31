@@ -242,13 +242,13 @@ const BottomHeader = () => {
                     id="menu-item-978"
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-978"
                   >
-                    <a>Posts</a>
+                    <a href="/">Posts</a>
                     <ul class="sub-menu">
                       <li
                         id="menu-item-988"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-988"
                       >
-                        <a>Layouts</a>
+                        <a href="/">Layouts</a>
                         <ul class="sub-menu">
                           <li
                             id="menu-item-997"
@@ -329,7 +329,7 @@ const BottomHeader = () => {
                         id="menu-item-995"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-995"
                       >
-                        <a>Sidebars</a>
+                        <a href="/">Sidebars</a>
                         <ul class="sub-menu">
                           <li
                             id="menu-item-1008"
@@ -362,7 +362,7 @@ const BottomHeader = () => {
                         id="menu-item-996"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-996"
                       >
-                        <a>Formats</a>
+                        <a href="/">Formats</a>
                         <ul class="sub-menu">
                           <li
                             id="menu-item-1023"
@@ -411,7 +411,7 @@ const BottomHeader = () => {
                         id="menu-item-1710"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1710"
                       >
-                        <a>Reviews/Ratings</a>
+                        <a href="/">Reviews/Ratings</a>
                         <ul class="sub-menu">
                           <li
                             id="menu-item-1711"
@@ -460,7 +460,7 @@ const BottomHeader = () => {
                         id="menu-item-1027"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1027"
                       >
-                        <a>More</a>
+                        <a href="/">More</a>
                         <ul class="sub-menu">
                           <li
                             id="menu-item-1028"
@@ -527,7 +527,7 @@ const BottomHeader = () => {
                     id="menu-item-979"
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-979"
                   >
-                    <a>Archives</a>
+                    <a href="/">Archives</a>
                     <ul class="sub-menu">
                       <li
                         id="menu-item-980"
@@ -568,13 +568,13 @@ const BottomHeader = () => {
                     id="menu-item-966"
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-966"
                   >
-                    <a>Pages</a>
+                    <a href="/">Pages</a>
                     <ul class="sub-menu">
                       <li
                         id="menu-item-973"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-973"
                       >
-                        <a>Layouts</a>
+                        <a href="/">Layouts</a>
                         <ul class="sub-menu">
                           <li
                             id="menu-item-972"
@@ -631,7 +631,7 @@ const BottomHeader = () => {
                         id="menu-item-974"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-974"
                       >
-                        <a>Sidebars</a>
+                        <a href="/">Sidebars</a>
                         <ul class="sub-menu">
                           <li
                             id="menu-item-976"
@@ -919,7 +919,7 @@ const BottomHeader = () => {
                     id="menu-item-991"
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-991"
                   >
-                    <a>Features</a>
+                    <a href="/">Features</a>
                     <ul class="sub-menu">
                       <li
                         id="menu-item-1556"
@@ -957,7 +957,7 @@ const BottomHeader = () => {
                         id="menu-item-1786"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1786"
                       >
-                        <a>Header examples</a>
+                        <a href="/">Header examples</a>
                         <ul class="sub-menu">
                           <li
                             id="menu-item-1787"
