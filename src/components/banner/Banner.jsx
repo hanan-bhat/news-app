@@ -65,7 +65,7 @@ const Banner = ({ topNews }) => {
                                 <p>{news?.description}</p>
                               </div>
 
-                              <a href="/" className="fa-post-bg"></a>
+                              {/* <a href="/" className="fa-post-bg"></a> */}
                             </header>
 
                             <a
