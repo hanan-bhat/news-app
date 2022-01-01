@@ -1,5 +1,4 @@
-import moment from "moment";
-
+import moment from 'moment'
 
 const Banner = ({ topNews }) => {
   return (
@@ -7,7 +6,7 @@ const Banner = ({ topNews }) => {
       className="herald-section container herald-no-sid"
       id="herald-section-0"
     >
-        {console.log('TOP 4:',topNews)}
+      {console.log('TOP 4:', topNews)}
       <div className="row">
         <div className="col-lg-12 col-md-12">
           <div className="row">
@@ -19,8 +18,16 @@ const Banner = ({ topNews }) => {
                 <div className="row">
                   <div className="col-lg-12">
                     <div className="herald-fa-list">
-                        { topNews.sort(function(){return .5 - Math.random()}).slice(0,4).map((news) => (
-                            <article className="herald-fa-item herald-cat-2">
+                      {topNews
+                        .sort(function () {
+                          return 0.5 - Math.random()
+                        })
+                        .slice(0, 4)
+                        .map((news, index) => (
+                          <article
+                            className="herald-fa-item herald-cat-2"
+                            key={index}
+                          >
                             <header className="entry-header">
                               <span className="meta-category">
                                 <a
@@ -30,7 +37,7 @@ const Banner = ({ topNews }) => {
                                   Travel
                                 </a>
                               </span>
-    
+
                               <h2 className="entry-title h6">
                                 <a href="https://demo.mekshq.com/herald/?p=157">
                                   <span className="herald-format-icon">
@@ -41,24 +48,26 @@ const Banner = ({ topNews }) => {
                               </h2>
                               <div className="entry-meta">
                                 <div className="meta-item herald-date">
-                                  <span className="updated">{moment(news.publishedAt).startOf('hour').fromNow()}</span>
+                                  <span className="updated">
+                                    {moment(news.publishedAt)
+                                      .startOf('hour')
+                                      .fromNow()}
+                                  </span>
                                 </div>
                                 <div className="meta-item herald-comments">
-                                  <a href="https://demo.mekshq.com/herald/?p=157#comments">
+                                  <a href="https://demo.mekshq.com/herald/?p=157">
                                     6 Comments
                                   </a>
                                 </div>
                               </div>
-    
+
                               <div className="entry-content">
-                                <p>
-                                 {news?.description}
-                                </p>
+                                <p>{news?.description}</p>
                               </div>
-    
-                              <a href="#" className="fa-post-bg"></a>
+
+                              <a href="/" className="fa-post-bg"></a>
                             </header>
-    
+
                             <a
                               className="fa-post-thumbnail"
                               href="https://demo.mekshq.com/herald/?p=157"
@@ -88,7 +97,7 @@ const Banner = ({ topNews }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Banner;
+export default Banner
